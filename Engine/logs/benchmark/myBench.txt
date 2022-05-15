@@ -1,0 +1,31 @@
+______________ Benchmark loading scenes logs ______________
+
+
+Scene objects count : 19 (for 11 models loaded)
+Scene triangles count : 606611
+Scene textures count : 51
+___________________________________________________________
+
+Multithread loading times :
+
+Time 1 -> 0 min and 10.256000 secs
+Time 2 -> 0 min and 9.966000 secs
+Time 3 -> 0 min and 10.734000 secs
+Time 4 -> 0 min and 9.717000 secs
+Time 5 -> 0 min and 9.952000 secs
+
+Average time -> 0 min and 10.125000 secs
+___________________________________________________________
+
+Monothread loading times :
+
+Time 1 -> 0 min and 27.267000 secs
+Time 2 -> 0 min and 27.632000 secs
+Time 3 -> 0 min and 25.823999 secs
+Time 4 -> 0 min and 27.007000 secs
+Time 5 -> 0 min and 29.867001 secs
+
+Average time -> 0 min and 27.519400 secs
+___________________________________________________________
+
+Ratio -> Multithread is 2.717965 faster than monothread

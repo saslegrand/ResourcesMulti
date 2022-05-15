@@ -1,0 +1,81 @@
+______________ Benchmark loading scenes logs ______________
+
+
+Scene objects count : 19 (for 11 models loaded)
+Scene triangles count : 606611
+Scene textures count : 51
+___________________________________________________________
+
+Multithread loading times :
+
+Time 1 -> 0 min and 9.042000 secs
+Time 2 -> 0 min and 8.918000 secs
+Time 3 -> 0 min and 11.120000 secs
+Time 4 -> 0 min and 8.927000 secs
+Time 5 -> 0 min and 9.041000 secs
+Time 6 -> 0 min and 9.121000 secs
+Time 7 -> 0 min and 9.052000 secs
+Time 8 -> 0 min and 9.239000 secs
+Time 9 -> 0 min and 9.367000 secs
+Time 10 -> 0 min and 9.105000 secs
+Time 11 -> 0 min and 9.224000 secs
+Time 12 -> 0 min and 9.202000 secs
+Time 13 -> 0 min and 8.991000 secs
+Time 14 -> 0 min and 9.173000 secs
+Time 15 -> 0 min and 9.020000 secs
+Time 16 -> 0 min and 9.066000 secs
+Time 17 -> 0 min and 9.135000 secs
+Time 18 -> 0 min and 9.052000 secs
+Time 19 -> 0 min and 9.043000 secs
+Time 20 -> 0 min and 9.222000 secs
+Time 21 -> 0 min and 8.993000 secs
+Time 22 -> 0 min and 9.057000 secs
+Time 23 -> 0 min and 9.045000 secs
+Time 24 -> 0 min and 10.445000 secs
+Time 25 -> 0 min and 9.395000 secs
+Time 26 -> 0 min and 9.429000 secs
+Time 27 -> 0 min and 9.330000 secs
+Time 28 -> 0 min and 9.296000 secs
+Time 29 -> 0 min and 9.363000 secs
+Time 30 -> 0 min and 9.242000 secs
+
+Average time -> 0 min and 9.255167 secs
+___________________________________________________________
+
+Monothread loading times :
+
+Time 1 -> 0 min and 25.927000 secs
+Time 2 -> 0 min and 25.608000 secs
+Time 3 -> 0 min and 25.600000 secs
+Time 4 -> 0 min and 26.358000 secs
+Time 5 -> 0 min and 26.062000 secs
+Time 6 -> 0 min and 26.275000 secs
+Time 7 -> 0 min and 25.851000 secs
+Time 8 -> 0 min and 25.837000 secs
+Time 9 -> 0 min and 25.416000 secs
+Time 10 -> 0 min and 25.521000 secs
+Time 11 -> 0 min and 26.032000 secs
+Time 12 -> 0 min and 25.544001 secs
+Time 13 -> 0 min and 25.760000 secs
+Time 14 -> 0 min and 25.497999 secs
+Time 15 -> 0 min and 25.500999 secs
+Time 16 -> 0 min and 26.007000 secs
+Time 17 -> 0 min and 25.537001 secs
+Time 18 -> 0 min and 25.594000 secs
+Time 19 -> 0 min and 25.629999 secs
+Time 20 -> 0 min and 25.922001 secs
+Time 21 -> 0 min and 25.582001 secs
+Time 22 -> 0 min and 25.555000 secs
+Time 23 -> 0 min and 25.452999 secs
+Time 24 -> 0 min and 25.660999 secs
+Time 25 -> 0 min and 25.514000 secs
+Time 26 -> 0 min and 26.097000 secs
+Time 27 -> 0 min and 25.485001 secs
+Time 28 -> 0 min and 25.797001 secs
+Time 29 -> 0 min and 26.024000 secs
+Time 30 -> 0 min and 26.039000 secs
+
+Average time -> 0 min and 25.756231 secs
+___________________________________________________________
+
+Ratio -> Multithread is 2.782903 faster than monothread

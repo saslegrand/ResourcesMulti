@@ -1,0 +1,1338 @@
+[Sun May 15 18:18:24 2022] Info: Creating the Application
+[Sun May 15 18:18:24 2022] Info: Creating the window
+[Sun May 15 18:18:24 2022] Info: Application initialized
+[Sun May 15 18:18:24 2022] Info: Creating the Resources Manager
+[Sun May 15 18:18:24 2022] Info: Resources Manager initialized
+[Sun May 15 18:18:24 2022] Info: Loading program shader
+[Sun May 15 18:18:24 2022] Info: Linking resources/shaders/vertexShader.vert and resources/shaders/fragmentShader.frag to shader
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/vertexShader.vert
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/fragmentShader.frag
+[Sun May 15 18:18:24 2022] Info: Loading program skyBox
+[Sun May 15 18:18:24 2022] Info: Linking resources/shaders/skyBox.vert and resources/shaders/skyBox.frag to skyBox
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/skyBox.vert
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/skyBox.frag
+[Sun May 15 18:18:24 2022] Info: Loading program colliderShader
+[Sun May 15 18:18:24 2022] Info: Linking resources/shaders/vertexCollider.vert and resources/shaders/fragmentCollider.frag to colliderShader
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/vertexCollider.vert
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/fragmentCollider.frag
+[Sun May 15 18:18:24 2022] Info: Loading program spriteShader
+[Sun May 15 18:18:24 2022] Info: Linking resources/shaders/spriteVertex.vert and resources/shaders/spriteFragment.frag to spriteShader
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/spriteVertex.vert
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/spriteFragment.frag
+[Sun May 15 18:18:24 2022] Info: Loading program depthShader
+[Sun May 15 18:18:24 2022] Info: Linking resources/shaders/depthShader.vert and resources/shaders/depthShader.frag to depthShader
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/depthShader.vert
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/depthShader.frag
+[Sun May 15 18:18:24 2022] Info: Loading program depthCubeShader
+[Sun May 15 18:18:24 2022] Info: Linking resources/shaders/depthCubeShader.vert and resources/shaders/depthShader.frag to depthCubeShader
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/depthCubeShader.vert
+[Sun May 15 18:18:24 2022] Info: Loading resources/shaders/depthCubeShader.geom
+[Sun May 15 18:18:24 2022] Info: Start loading obj resources/obj/cube.obj
+[Sun May 15 18:18:24 2022] Info: Loading meshes
+[Sun May 15 18:18:24 2022] Info: Finish loading meshes resources/obj/cube.obj
+[Sun May 15 18:18:24 2022] Info: Obj resources/obj/cube.obj took 0.001000 sec to load
+[Sun May 15 18:18:24 2022] Info: Start loading obj resources/obj/sphere.obj
+[Sun May 15 18:18:24 2022] Info: Loading meshes
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file: resources/obj/sphere.mtl
+[Sun May 15 18:18:24 2022] Info: Finish loading meshes resources/obj/sphere.obj
+[Sun May 15 18:18:24 2022] Info: Obj resources/obj/sphere.obj took 0.010000 sec to load
+[Sun May 15 18:18:24 2022] Info: Start loading obj resources/obj/plane.obj
+[Sun May 15 18:18:24 2022] Info: Loading meshes
+[Sun May 15 18:18:24 2022] Info: Finish loading meshes resources/obj/plane.obj
+[Sun May 15 18:18:24 2022] Info: Obj resources/obj/plane.obj took 0.000000 sec to load
+[Sun May 15 18:18:24 2022] Info: Creating the Thread Pool
+[Sun May 15 18:18:24 2022] Info: Initialize the Thread Pool
+[Sun May 15 18:18:24 2022] Info: Creating the Graph
+[Sun May 15 18:18:24 2022] Info: Creating the Render Manager
+[Sun May 15 18:18:24 2022] Info: Creating the Physic Manager
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:18:24 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:18:24 2022] Info: Create ShadowMap
+[Sun May 15 18:18:24 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:18:24 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:18:24 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:24 2022] Info: Creating the Time Manager
+[Sun May 15 18:18:24 2022] Info: Creating the Engine
+[Sun May 15 18:18:24 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:18:24 2022] ERROR: can't fopenresources/skyboxes/left.png
+[Sun May 15 18:18:24 2022] ERROR: can't fopenresources/skyboxes/top.png
+[Sun May 15 18:18:24 2022] ERROR: can't fopenresources/skyboxes/bottom.png
+[Sun May 15 18:18:24 2022] ERROR: can't fopenresources/skyboxes/front.png
+[Sun May 15 18:18:24 2022] ERROR: can't fopenresources/skyboxes/back.png
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file: resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:24 2022] ERROR: Unable to read the file : resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:24 2022] Info: Creating the Sound Manager
+[Sun May 15 18:18:25 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:25 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 0.261000 sec to load
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:31 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:18:31 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:18:31 2022] Info: Create ShadowMap
+[Sun May 15 18:18:31 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:18:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:31 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:18:31 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:31 2022] Info: Finish loading obj meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:31 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.001000 sec to load
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:31 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:18:31 2022] Info: Finish loading obj meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:31 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.030000 sec to load
+[Sun May 15 18:18:31 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:31 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:18:31 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:31 2022] Info: Finish loading obj meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:31 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.052000 sec to load
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:31 2022] Info: Finish loading obj meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:31 2022] Info: Obj resources/obj/pallet/pallet.obj took 0.035000 sec to load
+[Sun May 15 18:18:31 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:32 2022] Info: Finish loading obj meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:32 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.363000 sec to load
+[Sun May 15 18:18:32 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:32 2022] Info: Finish loading obj meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:32 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.496000 sec to load
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:18:32 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:18:32 2022] Info: Finish loading obj meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:32 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 0.451000 sec to load
+[Sun May 15 18:18:32 2022] Info: Finish loading obj meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:32 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 0.881000 sec to load
+[Sun May 15 18:18:33 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:33 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 1.296000 sec to load
+[Sun May 15 18:18:34 2022] Info: Finish loading obj meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:34 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 3.226000 sec to load
+[Sun May 15 18:18:36 2022] Info: Finish loading obj meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:36 2022] Info: Obj resources/obj/sponza/sponza.obj took 3.977000 sec to load
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:53 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:18:53 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:18:53 2022] Info: Create ShadowMap
+[Sun May 15 18:18:53 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:53 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:18:53 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:53 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:53 2022] Info: Finish loading obj meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:53 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.040000 sec to load
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:53 2022] Info: Finish loading obj meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:53 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.044000 sec to load
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:53 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:18:53 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:18:53 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:18:53 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:18:53 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:53 2022] Info: Finish loading obj meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:53 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.057000 sec to load
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:53 2022] Info: Finish loading obj meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:53 2022] Info: Obj resources/obj/pallet/pallet.obj took 0.033000 sec to load
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:53 2022] Info: Finish loading obj meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:53 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.366000 sec to load
+[Sun May 15 18:18:53 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:54 2022] Info: Finish loading obj meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:54 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.688000 sec to load
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:18:54 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:18:54 2022] Info: Finish loading obj meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:54 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 0.489000 sec to load
+[Sun May 15 18:18:54 2022] Info: Finish loading obj meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:54 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 0.908000 sec to load
+[Sun May 15 18:18:54 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:54 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 1.393000 sec to load
+[Sun May 15 18:18:56 2022] Info: Finish loading obj meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:56 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 3.438000 sec to load
+[Sun May 15 18:18:57 2022] Info: Finish loading obj meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:57 2022] Info: Obj resources/obj/sponza/sponza.obj took 3.814000 sec to load
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:58 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:18:58 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:18:58 2022] Info: Create ShadowMap
+[Sun May 15 18:18:58 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:18:58 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:18:58 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:18:58 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:58 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:58 2022] Info: Finish loading obj meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:18:58 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.001000 sec to load
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:58 2022] Info: Finish loading obj meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:18:58 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.008000 sec to load
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:18:58 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:58 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:58 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:18:58 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:58 2022] Info: Finish loading obj meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:18:58 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.063000 sec to load
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:58 2022] Info: Finish loading obj meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:18:58 2022] Info: Obj resources/obj/pallet/pallet.obj took 0.034000 sec to load
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:58 2022] Info: Finish loading obj meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:18:58 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.363000 sec to load
+[Sun May 15 18:18:58 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:18:59 2022] Info: Finish loading obj meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:18:59 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.567000 sec to load
+[Sun May 15 18:18:59 2022] Info: Finish loading obj meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:18:59 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 0.481000 sec to load
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:18:59 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:18:59 2022] Info: Finish loading obj meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:18:59 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 0.888000 sec to load
+[Sun May 15 18:18:59 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:18:59 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 1.313000 sec to load
+[Sun May 15 18:19:01 2022] Info: Finish loading obj meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:01 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 3.338000 sec to load
+[Sun May 15 18:19:02 2022] Info: Finish loading obj meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:02 2022] Info: Obj resources/obj/sponza/sponza.obj took 3.919000 sec to load
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:02 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:19:02 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:19:02 2022] Info: Create ShadowMap
+[Sun May 15 18:19:02 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:19:02 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:02 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:19:02 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:19:02 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:19:02 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:19:02 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:02 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:02 2022] Info: Finish loading obj meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:02 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.002000 sec to load
+[Sun May 15 18:19:02 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:19:02 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:02 2022] Info: Finish loading obj meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:02 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.007000 sec to load
+[Sun May 15 18:19:02 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:02 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:19:02 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:02 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:19:03 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:19:03 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:03 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:19:03 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:03 2022] Info: Finish loading obj meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:03 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.061000 sec to load
+[Sun May 15 18:19:03 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:03 2022] Info: Finish loading obj meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:03 2022] Info: Obj resources/obj/pallet/pallet.obj took 0.034000 sec to load
+[Sun May 15 18:19:03 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:03 2022] Info: Finish loading obj meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:03 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.366000 sec to load
+[Sun May 15 18:19:03 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:03 2022] Info: Finish loading obj meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:03 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.545000 sec to load
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:19:03 2022] Info: Finish loading obj meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:03 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 0.467000 sec to load
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:19:03 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:19:03 2022] Info: Finish loading obj meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:03 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 0.890000 sec to load
+[Sun May 15 18:19:04 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:04 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 1.285000 sec to load
+[Sun May 15 18:19:06 2022] Info: Finish loading obj meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:06 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 3.387000 sec to load
+[Sun May 15 18:19:07 2022] Info: Finish loading obj meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:07 2022] Info: Obj resources/obj/sponza/sponza.obj took 3.952000 sec to load
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:07 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:19:07 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:19:07 2022] Info: Create ShadowMap
+[Sun May 15 18:19:07 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:07 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:19:07 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:07 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:19:07 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:07 2022] Info: Finish loading obj meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:07 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.003000 sec to load
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:07 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:19:07 2022] Info: Finish loading obj meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:07 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.014000 sec to load
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:07 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:07 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:19:07 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:07 2022] Info: Finish loading obj meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:07 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.045000 sec to load
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:07 2022] Info: Finish loading obj meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:07 2022] Info: Obj resources/obj/pallet/pallet.obj took 0.040000 sec to load
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:07 2022] Info: Finish loading obj meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:07 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.352000 sec to load
+[Sun May 15 18:19:07 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:08 2022] Info: Finish loading obj meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:08 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.630000 sec to load
+[Sun May 15 18:19:08 2022] Info: Finish loading obj meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:08 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 0.495000 sec to load
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:19:08 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:19:08 2022] Info: Finish loading obj meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:08 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 0.888000 sec to load
+[Sun May 15 18:19:08 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:08 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 1.285000 sec to load
+[Sun May 15 18:19:10 2022] Info: Finish loading obj meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:10 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 3.523000 sec to load
+[Sun May 15 18:19:11 2022] Info: Finish loading obj meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:11 2022] Info: Obj resources/obj/sponza/sponza.obj took 3.948000 sec to load
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:11 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:19:11 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:19:11 2022] Info: Create ShadowMap
+[Sun May 15 18:19:11 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:11 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:19:11 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:19:11 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:11 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:19:11 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:11 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:11 2022] Info: Finish loading obj meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:11 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.004000 sec to load
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:11 2022] Info: Finish loading obj meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:11 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.013000 sec to load
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:11 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:19:11 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:19:11 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:11 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:12 2022] Info: Finish loading obj meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:12 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.067000 sec to load
+[Sun May 15 18:19:12 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:12 2022] Info: Finish loading obj meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:12 2022] Info: Obj resources/obj/pallet/pallet.obj took 0.035000 sec to load
+[Sun May 15 18:19:12 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:12 2022] Info: Finish loading obj meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:12 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.359000 sec to load
+[Sun May 15 18:19:12 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:12 2022] Info: Finish loading obj meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:12 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.500000 sec to load
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:19:12 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:19:12 2022] Info: Finish loading obj meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:12 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 0.461000 sec to load
+[Sun May 15 18:19:12 2022] Info: Finish loading obj meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:12 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 0.856000 sec to load
+[Sun May 15 18:19:13 2022] Info: Finish loading obj meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:13 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 1.246000 sec to load
+[Sun May 15 18:19:15 2022] Info: Finish loading obj meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:15 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 3.529000 sec to load
+[Sun May 15 18:19:16 2022] Info: Finish loading obj meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:16 2022] Info: Obj resources/obj/sponza/sponza.obj took 3.915000 sec to load
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:16 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:19:16 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:19:16 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:19:16 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:19:16 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:19:16 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:19:16 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:19:16 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:19:16 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:16 2022] Info: Loading meshes
+[Sun May 15 18:19:16 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:19:16 2022] Info: Finish loading meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:16 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 0.310000 sec to load
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:19:16 2022] Info: Create ShadowMap
+[Sun May 15 18:19:16 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:19:16 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:16 2022] Info: Loading meshes
+[Sun May 15 18:19:16 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:19:16 2022] Info: Finish loading meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:16 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.176000 sec to load
+[Sun May 15 18:19:16 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:19:16 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:16 2022] Info: Loading meshes
+[Sun May 15 18:19:16 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:19:17 2022] Info: Finish loading meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:17 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.106000 sec to load
+[Sun May 15 18:19:17 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:19:17 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:17 2022] Info: Loading meshes
+[Sun May 15 18:19:17 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:19:17 2022] Info: Finish loading meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:17 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.774000 sec to load
+[Sun May 15 18:19:17 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:19:17 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:19:17 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:17 2022] Info: Loading meshes
+[Sun May 15 18:19:17 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:19:19 2022] Info: Finish loading meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:19 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 1.346000 sec to load
+[Sun May 15 18:19:19 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:19:19 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:19 2022] Info: Loading meshes
+[Sun May 15 18:19:19 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:19:19 2022] Info: Finish loading meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:19 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.435000 sec to load
+[Sun May 15 18:19:19 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:19:19 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:19 2022] Info: Loading meshes
+[Sun May 15 18:19:19 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:19:21 2022] Info: Finish loading meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:21 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 2.064000 sec to load
+[Sun May 15 18:19:21 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:19:21 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:21 2022] Info: Loading meshes
+[Sun May 15 18:19:21 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:19:22 2022] Info: Finish loading meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:22 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.688000 sec to load
+[Sun May 15 18:19:22 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:19:22 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:22 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:19:22 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:22 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:19:22 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:22 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:19:22 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:22 2022] Info: Loading meshes
+[Sun May 15 18:19:22 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:19:24 2022] Info: Finish loading meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:24 2022] Info: Obj resources/obj/pallet/pallet.obj took 1.700000 sec to load
+[Sun May 15 18:19:24 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:19:24 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:19:24 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:19:24 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:24 2022] Info: Loading meshes
+[Sun May 15 18:19:24 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:19:26 2022] Info: Finish loading meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:26 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 2.854000 sec to load
+[Sun May 15 18:19:26 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:19:26 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:26 2022] Info: Loading meshes
+[Sun May 15 18:19:26 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:19:31 2022] Info: Finish loading meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:31 2022] Info: Obj resources/obj/sponza/sponza.obj took 4.825000 sec to load
+[Sun May 15 18:19:31 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:19:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:31 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:19:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:31 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:19:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:31 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:19:31 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:32 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:32 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:19:32 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:19:32 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:19:32 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:19:32 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:19:32 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:19:32 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:19:32 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:19:32 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:19:32 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:19:32 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:32 2022] Info: Loading meshes
+[Sun May 15 18:19:32 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:19:32 2022] Info: Finish loading meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:32 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 0.312000 sec to load
+[Sun May 15 18:19:32 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:19:32 2022] Info: Create ShadowMap
+[Sun May 15 18:19:32 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:19:32 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:19:32 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:19:32 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:32 2022] Info: Loading meshes
+[Sun May 15 18:19:32 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:19:33 2022] Info: Finish loading meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:33 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.175000 sec to load
+[Sun May 15 18:19:33 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:19:33 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:33 2022] Info: Loading meshes
+[Sun May 15 18:19:33 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:19:33 2022] Info: Finish loading meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:33 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.106000 sec to load
+[Sun May 15 18:19:33 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:19:33 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:33 2022] Info: Loading meshes
+[Sun May 15 18:19:33 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:19:33 2022] Info: Finish loading meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:33 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.732000 sec to load
+[Sun May 15 18:19:33 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:19:33 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:19:33 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:33 2022] Info: Loading meshes
+[Sun May 15 18:19:33 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:19:35 2022] Info: Finish loading meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:35 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 1.339000 sec to load
+[Sun May 15 18:19:35 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:19:35 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:35 2022] Info: Loading meshes
+[Sun May 15 18:19:35 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:19:35 2022] Info: Finish loading meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:35 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.437000 sec to load
+[Sun May 15 18:19:35 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:19:35 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:35 2022] Info: Loading meshes
+[Sun May 15 18:19:35 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:19:37 2022] Info: Finish loading meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:37 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 2.069000 sec to load
+[Sun May 15 18:19:37 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:19:37 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:37 2022] Info: Loading meshes
+[Sun May 15 18:19:37 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:19:38 2022] Info: Finish loading meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:38 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.689000 sec to load
+[Sun May 15 18:19:38 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:19:38 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:38 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:19:38 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:38 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:19:38 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:38 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:19:38 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:38 2022] Info: Loading meshes
+[Sun May 15 18:19:38 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:19:40 2022] Info: Finish loading meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:40 2022] Info: Obj resources/obj/pallet/pallet.obj took 1.624000 sec to load
+[Sun May 15 18:19:40 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:19:40 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:19:40 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:19:40 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:40 2022] Info: Loading meshes
+[Sun May 15 18:19:40 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:19:42 2022] Info: Finish loading meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:42 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 2.853000 sec to load
+[Sun May 15 18:19:42 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:19:42 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:42 2022] Info: Loading meshes
+[Sun May 15 18:19:42 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:19:47 2022] Info: Finish loading meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:47 2022] Info: Obj resources/obj/sponza/sponza.obj took 4.829000 sec to load
+[Sun May 15 18:19:47 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:19:47 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:47 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:19:47 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:47 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:19:47 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:47 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:19:47 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:48 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:48 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:19:48 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:19:48 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:19:48 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:19:48 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:19:48 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:19:48 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:19:48 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:19:48 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:19:48 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:19:48 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:48 2022] Info: Loading meshes
+[Sun May 15 18:19:48 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:19:49 2022] Info: Finish loading meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:19:49 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 0.353000 sec to load
+[Sun May 15 18:19:49 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:19:49 2022] Info: Create ShadowMap
+[Sun May 15 18:19:49 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:19:49 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:19:49 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:19:49 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:49 2022] Info: Loading meshes
+[Sun May 15 18:19:49 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:19:49 2022] Info: Finish loading meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:19:49 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.177000 sec to load
+[Sun May 15 18:19:49 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:19:49 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:49 2022] Info: Loading meshes
+[Sun May 15 18:19:49 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:19:49 2022] Info: Finish loading meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:19:49 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.106000 sec to load
+[Sun May 15 18:19:49 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:19:49 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:49 2022] Info: Loading meshes
+[Sun May 15 18:19:49 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:19:50 2022] Info: Finish loading meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:19:50 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.729000 sec to load
+[Sun May 15 18:19:50 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:19:50 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:19:50 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:50 2022] Info: Loading meshes
+[Sun May 15 18:19:50 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:19:51 2022] Info: Finish loading meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:19:51 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 1.334000 sec to load
+[Sun May 15 18:19:51 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:19:51 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:51 2022] Info: Loading meshes
+[Sun May 15 18:19:51 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:19:51 2022] Info: Finish loading meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:19:51 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.436000 sec to load
+[Sun May 15 18:19:51 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:19:51 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:51 2022] Info: Loading meshes
+[Sun May 15 18:19:51 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:19:53 2022] Info: Finish loading meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:19:53 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 2.063000 sec to load
+[Sun May 15 18:19:53 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:19:53 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:53 2022] Info: Loading meshes
+[Sun May 15 18:19:53 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:19:54 2022] Info: Finish loading meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:19:54 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.686000 sec to load
+[Sun May 15 18:19:54 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:19:54 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:54 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:19:54 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:54 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:19:54 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:19:54 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:19:54 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:54 2022] Info: Loading meshes
+[Sun May 15 18:19:54 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:19:56 2022] Info: Finish loading meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:19:56 2022] Info: Obj resources/obj/pallet/pallet.obj took 1.617000 sec to load
+[Sun May 15 18:19:56 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:19:56 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:19:56 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:19:56 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:56 2022] Info: Loading meshes
+[Sun May 15 18:19:56 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:19:59 2022] Info: Finish loading meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:19:59 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 2.845000 sec to load
+[Sun May 15 18:19:59 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:19:59 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:19:59 2022] Info: Loading meshes
+[Sun May 15 18:19:59 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:20:03 2022] Info: Finish loading meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:03 2022] Info: Obj resources/obj/sponza/sponza.obj took 4.847000 sec to load
+[Sun May 15 18:20:03 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:20:03 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:03 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:20:03 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:03 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:20:03 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:03 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:20:03 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:04 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:04 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:20:04 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:20:04 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:20:04 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:20:04 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:20:04 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:20:04 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:20:04 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:20:04 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:20:04 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:20:04 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:20:04 2022] Info: Loading meshes
+[Sun May 15 18:20:04 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:20:05 2022] Info: Finish loading meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:20:05 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 0.315000 sec to load
+[Sun May 15 18:20:05 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:20:05 2022] Info: Create ShadowMap
+[Sun May 15 18:20:05 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:20:05 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:20:05 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:20:05 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:20:05 2022] Info: Loading meshes
+[Sun May 15 18:20:05 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:20:05 2022] Info: Finish loading meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:20:05 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.176000 sec to load
+[Sun May 15 18:20:05 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:20:05 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:20:05 2022] Info: Loading meshes
+[Sun May 15 18:20:05 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:20:05 2022] Info: Finish loading meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:20:05 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.106000 sec to load
+[Sun May 15 18:20:05 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:20:05 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:20:05 2022] Info: Loading meshes
+[Sun May 15 18:20:05 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:20:06 2022] Info: Finish loading meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:20:06 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.749000 sec to load
+[Sun May 15 18:20:06 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:20:06 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:20:06 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:20:06 2022] Info: Loading meshes
+[Sun May 15 18:20:06 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:20:07 2022] Info: Finish loading meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:20:07 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 1.354000 sec to load
+[Sun May 15 18:20:07 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:20:07 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:20:07 2022] Info: Loading meshes
+[Sun May 15 18:20:07 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:20:07 2022] Info: Finish loading meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:20:07 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.437000 sec to load
+[Sun May 15 18:20:07 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:20:07 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:20:07 2022] Info: Loading meshes
+[Sun May 15 18:20:07 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:20:09 2022] Info: Finish loading meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:20:09 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 2.063000 sec to load
+[Sun May 15 18:20:09 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:20:09 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:09 2022] Info: Loading meshes
+[Sun May 15 18:20:09 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:20:10 2022] Info: Finish loading meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:10 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.687000 sec to load
+[Sun May 15 18:20:10 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:20:10 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:20:10 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:20:10 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:20:10 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:20:10 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:20:10 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:20:10 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:10 2022] Info: Loading meshes
+[Sun May 15 18:20:10 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:20:12 2022] Info: Finish loading meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:12 2022] Info: Obj resources/obj/pallet/pallet.obj took 1.633000 sec to load
+[Sun May 15 18:20:12 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:20:12 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:20:12 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:20:12 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:12 2022] Info: Loading meshes
+[Sun May 15 18:20:12 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:20:15 2022] Info: Finish loading meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:15 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 2.847000 sec to load
+[Sun May 15 18:20:15 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:20:15 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:15 2022] Info: Loading meshes
+[Sun May 15 18:20:15 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:20:20 2022] Info: Finish loading meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:20 2022] Info: Obj resources/obj/sponza/sponza.obj took 4.837000 sec to load
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:20:20 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:20:20 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:20:20 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:20:20 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:20 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named SkyBox
+[Sun May 15 18:20:20 2022] Info: Start creating skybox at resources/skyboxes/
+[Sun May 15 18:20:20 2022] Info: Loading of resources/skyboxes/right.png done with success
+[Sun May 15 18:20:20 2022] Info: Loading of resources/skyboxes/left.png done with success
+[Sun May 15 18:20:20 2022] Info: Loading of resources/skyboxes/top.png done with success
+[Sun May 15 18:20:20 2022] Info: Loading of resources/skyboxes/bottom.png done with success
+[Sun May 15 18:20:20 2022] Info: Loading of resources/skyboxes/front.png done with success
+[Sun May 15 18:20:20 2022] Info: Loading of resources/skyboxes/back.png done with success
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named Sprite
+[Sun May 15 18:20:20 2022] Info: Creating a GameObject named Phone
+[Sun May 15 18:20:20 2022] Info: Start loading obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:20:20 2022] Info: Loading meshes
+[Sun May 15 18:20:20 2022] Info: Loading materials at resources/obj/phone/Huawei_p40_pro_Free_Publish.mtl
+[Sun May 15 18:20:21 2022] Info: Finish loading meshes resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:20:21 2022] Info: Obj resources/obj/phone/Huawei_p40_pro_Free_Publish.obj took 0.311000 sec to load
+[Sun May 15 18:20:21 2022] Info: Creating a GameObject named Light
+[Sun May 15 18:20:21 2022] Info: Create ShadowMap
+[Sun May 15 18:20:21 2022] Info: ShadowMap : Attach texture and depth buffer
+[Sun May 15 18:20:21 2022] Info: Creating a GameObject named MainCamera
+[Sun May 15 18:20:21 2022] Info: Creating a GameObject named CraftHouse
+[Sun May 15 18:20:21 2022] Info: Start loading obj resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:20:21 2022] Info: Loading meshes
+[Sun May 15 18:20:21 2022] Info: Loading materials at resources/obj/crafthouse/black_smith.mtl
+[Sun May 15 18:20:21 2022] Info: Finish loading meshes resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:20:21 2022] Info: Obj resources/obj/crafthouse/black_smith.obj took 0.176000 sec to load
+[Sun May 15 18:20:21 2022] Info: Creating a GameObject named Platform7
+[Sun May 15 18:20:21 2022] Info: Start loading obj resources/obj/platforms/platform1.obj
+[Sun May 15 18:20:21 2022] Info: Loading meshes
+[Sun May 15 18:20:21 2022] Info: Loading materials at resources/obj/platforms/platform1.mtl
+[Sun May 15 18:20:21 2022] Info: Finish loading meshes resources/obj/platforms/platform1.obj
+[Sun May 15 18:20:21 2022] Info: Obj resources/obj/platforms/platform1.obj took 0.106000 sec to load
+[Sun May 15 18:20:21 2022] Info: Creating a GameObject named SwitchBoard
+[Sun May 15 18:20:21 2022] Info: Start loading obj resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:20:21 2022] Info: Loading meshes
+[Sun May 15 18:20:21 2022] Info: Loading materials at resources/obj/switchboard/SWITCHBOARD_OLD.mtl
+[Sun May 15 18:20:22 2022] Info: Finish loading meshes resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:20:22 2022] Info: Obj resources/obj/switchboard/SWITCHBOARD_OLD.obj took 0.732000 sec to load
+[Sun May 15 18:20:22 2022] Info: Creating a GameObject named Player
+[Sun May 15 18:20:22 2022] Info: Creating a GameObject named IPhone
+[Sun May 15 18:20:22 2022] Info: Start loading obj resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:20:22 2022] Info: Loading meshes
+[Sun May 15 18:20:22 2022] Info: Loading materials at resources/obj/iphone/iphone_11_pro_max.mtl
+[Sun May 15 18:20:23 2022] Info: Finish loading meshes resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:20:23 2022] Info: Obj resources/obj/iphone/iphone_11_pro_max.obj took 1.354000 sec to load
+[Sun May 15 18:20:23 2022] Info: Creating a GameObject named WareHouse
+[Sun May 15 18:20:23 2022] Info: Start loading obj resources/obj/house/wareHouse.obj
+[Sun May 15 18:20:23 2022] Info: Loading meshes
+[Sun May 15 18:20:23 2022] Info: Loading materials at resources/obj/house/warehouse.mtl
+[Sun May 15 18:20:24 2022] Info: Finish loading meshes resources/obj/house/wareHouse.obj
+[Sun May 15 18:20:24 2022] Info: Obj resources/obj/house/wareHouse.obj took 0.436000 sec to load
+[Sun May 15 18:20:24 2022] Info: Creating a GameObject named Gun
+[Sun May 15 18:20:24 2022] Info: Start loading obj resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:20:24 2022] Info: Loading meshes
+[Sun May 15 18:20:24 2022] Info: Loading materials at resources/obj/gun/M1A1_thompson.mtl
+[Sun May 15 18:20:26 2022] Info: Finish loading meshes resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:20:26 2022] Info: Obj resources/obj/gun/M1A1_thompson.obj took 2.100000 sec to load
+[Sun May 15 18:20:26 2022] Info: Creating a GameObject named ItekBox
+[Sun May 15 18:20:26 2022] Info: Start loading obj resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:26 2022] Info: Loading meshes
+[Sun May 15 18:20:26 2022] Info: Loading materials at resources/obj/box/Sci-fi-Box.mtl
+[Sun May 15 18:20:26 2022] Info: Finish loading meshes resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:20:26 2022] Info: Obj resources/obj/box/Sci-fi-Box.obj took 0.687000 sec to load
+[Sun May 15 18:20:26 2022] Info: Creating a GameObject named ItekBox2
+[Sun May 15 18:20:26 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:20:26 2022] Info: Creating a GameObject named ItekBox3
+[Sun May 15 18:20:26 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:20:26 2022] Info: Creating a GameObject named ItekBox4
+[Sun May 15 18:20:26 2022] Info: Model at resources/obj/box/Sci-fi-Box.obj is already loaded
+[Sun May 15 18:20:26 2022] Info: Creating a GameObject named Pallet2
+[Sun May 15 18:20:26 2022] Info: Start loading obj resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:26 2022] Info: Loading meshes
+[Sun May 15 18:20:26 2022] Info: Loading materials at resources/obj/pallet/pallet.mtl
+[Sun May 15 18:20:28 2022] Info: Finish loading meshes resources/obj/pallet/pallet.obj
+[Sun May 15 18:20:28 2022] Info: Obj resources/obj/pallet/pallet.obj took 1.627000 sec to load
+[Sun May 15 18:20:28 2022] Info: Creating a GameObject named Pallet
+[Sun May 15 18:20:28 2022] Info: Model at resources/obj/pallet/pallet.obj is already loaded
+[Sun May 15 18:20:28 2022] Info: Creating a GameObject named Craftsman
+[Sun May 15 18:20:28 2022] Info: Start loading obj resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:28 2022] Info: Loading meshes
+[Sun May 15 18:20:28 2022] Info: Loading materials at resources/obj/craftsman/craftsman.mtl
+[Sun May 15 18:20:31 2022] Info: Finish loading meshes resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:20:31 2022] Info: Obj resources/obj/craftsman/craftsman.obj took 2.848000 sec to load
+[Sun May 15 18:20:31 2022] Info: Creating a GameObject named Sponza
+[Sun May 15 18:20:31 2022] Info: Start loading obj resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:31 2022] Info: Loading meshes
+[Sun May 15 18:20:31 2022] Info: Loading materials at resources/obj/sponza/sponza.mtl
+[Sun May 15 18:20:36 2022] Info: Finish loading meshes resources/obj/sponza/sponza.obj
+[Sun May 15 18:20:36 2022] Info: Obj resources/obj/sponza/sponza.obj took 4.849000 sec to load
+[Sun May 15 18:20:36 2022] Info: Creating a GameObject named Craftsman2
+[Sun May 15 18:20:36 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:36 2022] Info: Creating a GameObject named Craftsman3
+[Sun May 15 18:20:36 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:36 2022] Info: Creating a GameObject named Craftsman4
+[Sun May 15 18:20:36 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:20:36 2022] Info: Creating a GameObject named Craftsman5
+[Sun May 15 18:20:36 2022] Info: Model at resources/obj/craftsman/craftsman.obj is already loaded
+[Sun May 15 18:21:54 2022] Info: Thread 14540 has finished
+[Sun May 15 18:21:54 2022] Info: Thread 20080 has finished
+[Sun May 15 18:21:54 2022] Info: Thread 2716 has finished
+[Sun May 15 18:21:54 2022] Info: Thread 14140 has finished
+[Sun May 15 18:21:54 2022] Info: Thread 18600 has finished
+[Sun May 15 18:21:54 2022] Info: Thread 16992 has finished
+[Sun May 15 18:21:54 2022] Info: Destroying the Resources Manager
+[Sun May 15 18:21:54 2022] Info: Destroying the Application
+[Sun May 15 18:21:54 2022] Info: Destroying the Engine
+[Sun May 15 18:21:54 2022] Info: Destroying the Graph
+[Sun May 15 18:21:54 2022] Info: Destroying the Physic Manager
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/phone/Huawei_p40_pro_Free_Publish.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/crafthouse/black_smith.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/platforms/platform1.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/switchboard/SWITCHBOARD_OLD.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/iphone/iphone_11_pro_max.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/house/wareHouse.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/gun/M1A1_thompson.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/box/Sci-fi-Box.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/pallet/pallet.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/sponza/sponza.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:21:54 2022] Info: Unload model resources/obj/craftsman/craftsman.obj
+[Sun May 15 18:21:54 2022] Info: Destroying the Render Manager
+[Sun May 15 18:21:54 2022] Info: Destroying the Sound Manager
+[Sun May 15 18:21:54 2022] Info: Destroying the Time Manager
+[Sun May 15 18:21:54 2022] Info: Destroying the Logs Manager

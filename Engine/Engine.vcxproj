@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{20af9bca-5714-4ce8-aab1-449f51b7b628}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)include\Physics;$(ProjectDir)include\Utils;$(ProjectDir)include\LowRenderer;$(ProjectDir)include/Core;$(ProjectDir)include\Resources;$(ProjectDir)include;$(ProjectDir)include\Engine;$(ProjectDir)include\Engine\Physics;$(ProjectDir)include\Engine\Render;$(ProjectDir)include\Engine\Gameplay;$(ProjectDir)include\Engine\Gameplay\Player;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)include\Physics;$(ProjectDir)include\Utils;$(ProjectDir)include\LowRenderer;$(ProjectDir)include/Core;$(ProjectDir)include\Resources;$(ProjectDir)include;$(ProjectDir)include\Engine;$(ProjectDir)include\Engine\Physics;$(ProjectDir)include\Engine\Render;$(ProjectDir)include\Engine\Gameplay;$(ProjectDir)include\Engine\Gameplay\Player;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(ProjectDir)include\Core;$(ProjectDir)include\Core\Input;$(ProjectDir)include\Engine;$(ProjectDir)include\Engine\LowRenderer;$(ProjectDir)include\Engine\Physics;$(ProjectDir)include\Engine\Physics\Toolbox;$(ProjectDir)include\Engine\UI;$(ProjectDir)include\Game;$(ProjectDir)include\Game\Gameplay\Entity;$(ProjectDir)include\Game\Gameplay\Player;$(ProjectDir)include\Game\Gameplay\Enemy;$(ProjectDir)include\Resources;$(ProjectDir)include\Utils;$(IncludePath);$(ProjectDir)include\Game\Gameplay</IncludePath>
+    <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
+    <LibraryPath>$(ProjectDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(ProjectDir)include\Core;$(ProjectDir)include\Core\Input;$(ProjectDir)include\Engine;$(ProjectDir)include\Engine\LowRenderer;$(ProjectDir)include\Engine\Physics;$(ProjectDir)include\Engine\Physics\Toolbox;$(ProjectDir)include\Engine\UI;$(ProjectDir)include\Game;$(ProjectDir)include\Game\Gameplay\Entity;$(ProjectDir)include\Game\Gameplay\Player;$(ProjectDir)include\Game\Gameplay\Enemy;$(ProjectDir)include\Resources;$(ProjectDir)include\Utils;$(ProjectDir)include\Game\Gameplay;$(IncludePath);$(ProjectDir)include\Game\Gameplay</IncludePath>
+    <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
+    <LibraryPath>$(ProjectDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)header;$(ProjectDir)header\irrklang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;freetype.lib;irrklang.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>MSVCRT</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib;$(AdditionalLibraries);</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy /D "$(ProjectDir)dll\" "$(OutDir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)header;$(ProjectDir)header\irrklang;$(ProjectDir)header\irrklang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;freetype.lib;irrklang.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib;$(AdditionalLibraries);</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy /D "$(ProjectDir)dll\" "$(OutDir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\application.cpp" />
+    <ClCompile Include="src\Core\debug.cpp" />
+    <ClCompile Include="src\Core\Input\inputs_manager.cpp" />
+    <ClCompile Include="src\Core\Input\key_axis.cpp" />
+    <ClCompile Include="src\Core\Input\key_button.cpp" />
+    <ClCompile Include="src\Core\Input\mouse_button.cpp" />
+    <ClCompile Include="src\Core\sound_manager.cpp" />
+    <ClCompile Include="src\Core\stb_image.cpp" />
+    <ClCompile Include="src\Core\thread_pool.cpp" />
+    <ClCompile Include="src\Core\time.cpp" />
+    <ClCompile Include="src\Core\timer.cpp" />
+    <ClCompile Include="src\Engine\benchmark.cpp" />
+    <ClCompile Include="src\Engine\component.cpp" />
+    <ClCompile Include="src\Engine\engine_master.cpp" />
+    <ClCompile Include="src\Engine\game_object.cpp" />
+    <ClCompile Include="src\Engine\graph.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\camera.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\collider_renderer.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\color.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\light.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\model.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\model_renderer.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\renderer.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\render_manager.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\shadow.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\shadow_map.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\shadow_point.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\sky_box.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\sprite_renderer.cpp" />
+    <ClCompile Include="src\Engine\LowRenderer\sub_model.cpp" />
+    <ClCompile Include="src\Engine\object.cpp" />
+    <ClCompile Include="src\Engine\Physics\box_collider.cpp" />
+    <ClCompile Include="src\Engine\Physics\collider.cpp" />
+    <ClCompile Include="src\Engine\Physics\physic_manager.cpp" />
+    <ClCompile Include="src\Engine\Physics\rigidbody.cpp" />
+    <ClCompile Include="src\Engine\Physics\shape.cpp" />
+    <ClCompile Include="src\Engine\Physics\sphere_collider.cpp" />
+    <ClCompile Include="src\Engine\Physics\Toolbox\intersection.cpp" />
+    <ClCompile Include="src\Engine\Physics\Toolbox\referential.cpp" />
+    <ClCompile Include="src\Engine\Physics\transform.cpp" />
+    <ClCompile Include="src\Engine\UI\button.cpp" />
+    <ClCompile Include="src\Game\Gameplay\bullet_hole.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Enemy\enemy_life.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Enemy\enemy_movement.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Enemy\enemy_state.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Entity\entity_life.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Entity\entity_movement.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Entity\entity_state.cpp" />
+    <ClCompile Include="src\Game\Gameplay\life_bar.cpp" />
+    <ClCompile Include="src\Game\Gameplay\medkit.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Player\camera_movement.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Player\player_life.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Player\player_movement.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Player\player_shooting.cpp" />
+    <ClCompile Include="src\Game\Gameplay\Player\player_state.cpp" />
+    <ClCompile Include="src\Game\game_master.cpp" />
+    <ClCompile Include="src\Game\lose_screen.cpp" />
+    <ClCompile Include="src\Game\main_menu.cpp" />
+    <ClCompile Include="src\Game\pause_screen.cpp" />
+    <ClCompile Include="src\Game\win_screen.cpp" />
+    <ClCompile Include="src\Resources\character.cpp" />
+    <ClCompile Include="src\Resources\cube_map.cpp" />
+    <ClCompile Include="src\Resources\material.cpp" />
+    <ClCompile Include="src\Resources\mesh.cpp" />
+    <ClCompile Include="src\Resources\recipe.cpp" />
+    <ClCompile Include="src\Resources\resource.cpp" />
+    <ClCompile Include="src\Resources\scene.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\imgui.cpp" />
+    <ClCompile Include="src\imgui_demo.cpp" />
+    <ClCompile Include="src\imgui_draw.cpp" />
+    <ClCompile Include="src\imgui_impl_glfw.cpp" />
+    <ClCompile Include="src\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="src\imgui_widgets.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Resources\resources_manager.cpp" />
+    <ClCompile Include="src\Resources\shader.cpp" />
+    <ClCompile Include="src\Resources\texture.cpp" />
+    <ClCompile Include="src\Utils\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\irrklang\ik_ESoundEngineOptions.h" />
+    <ClInclude Include="header\irrklang\ik_ESoundOutputDrivers.h" />
+    <ClInclude Include="header\irrklang\ik_EStreamModes.h" />
+    <ClInclude Include="header\irrklang\ik_IAudioRecorder.h" />
+    <ClInclude Include="header\irrklang\ik_IAudioStream.h" />
+    <ClInclude Include="header\irrklang\ik_IAudioStreamLoader.h" />
+    <ClInclude Include="header\irrklang\ik_IFileFactory.h" />
+    <ClInclude Include="header\irrklang\ik_IFileReader.h" />
+    <ClInclude Include="header\irrklang\ik_IRefCounted.h" />
+    <ClInclude Include="header\irrklang\ik_irrKlangTypes.h" />
+    <ClInclude Include="header\irrklang\ik_ISound.h" />
+    <ClInclude Include="header\irrklang\ik_ISoundDeviceList.h" />
+    <ClInclude Include="header\irrklang\ik_ISoundEffectControl.h" />
+    <ClInclude Include="header\irrklang\ik_ISoundEngine.h" />
+    <ClInclude Include="header\irrklang\ik_ISoundMixedOutputReceiver.h" />
+    <ClInclude Include="header\irrklang\ik_ISoundSource.h" />
+    <ClInclude Include="header\irrklang\ik_ISoundStopEventReceiver.h" />
+    <ClInclude Include="header\irrklang\ik_IVirtualRefCounted.h" />
+    <ClInclude Include="header\irrklang\ik_SAudioStreamFormat.h" />
+    <ClInclude Include="header\irrklang\ik_vec3d.h" />
+    <ClInclude Include="header\irrklang\irrKlang.h" />
+    <ClInclude Include="header\stb_image.h" />
+    <ClInclude Include="include\Core\application.hpp" />
+    <ClInclude Include="include\Core\define.hpp" />
+    <ClInclude Include="include\Core\Input\input.hpp" />
+    <ClInclude Include="include\Core\Input\inputs_manager.hpp" />
+    <ClInclude Include="include\Core\Input\key_axis.hpp" />
+    <ClInclude Include="include\Core\Input\key_button.hpp" />
+    <ClInclude Include="include\Core\Input\mouse_button.hpp" />
+    <ClInclude Include="include\Core\debug.hpp" />
+    <ClInclude Include="include\Core\maths.hpp" />
+    <ClInclude Include="include\Core\sound_manager.hpp" />
+    <ClInclude Include="include\Core\thread_pool.hpp" />
+    <ClInclude Include="include\Core\time.hpp" />
+    <ClInclude Include="include\Core\timer.hpp" />
+    <ClInclude Include="include\Engine\benchmark.hpp" />
+    <ClInclude Include="include\Engine\component.hpp" />
+    <ClInclude Include="include\Engine\engine_master.hpp" />
+    <ClInclude Include="include\Engine\game_object.hpp" />
+    <ClInclude Include="include\Engine\graph.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\camera.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\collider_renderer.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\color.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\light.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\model.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\model_renderer.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\renderer.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\render_manager.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\shadow.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\shadow_map.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\shadow_point.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\sky_box.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\sprite_renderer.hpp" />
+    <ClInclude Include="include\Engine\LowRenderer\sub_model.hpp" />
+    <ClInclude Include="include\Engine\object.hpp" />
+    <ClInclude Include="include\Engine\Physics\box_collider.hpp" />
+    <ClInclude Include="include\Engine\Physics\collider.hpp" />
+    <ClInclude Include="include\Engine\Physics\collision.hpp" />
+    <ClInclude Include="include\Engine\Physics\physic_manager.hpp" />
+    <ClInclude Include="include\Engine\Physics\rigidbody.hpp" />
+    <ClInclude Include="include\Engine\Physics\sphere_collider.hpp" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\box.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\capsule.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\cylinder.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\disk.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\intersection.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\plane.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\rect2D.hpp" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\referential.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\shape.hpp" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\quad.h" />
+    <ClInclude Include="include\Engine\Physics\Toolbox\sphere.h" />
+    <ClInclude Include="include\Engine\Physics\transform.hpp" />
+    <ClInclude Include="include\Engine\UI\button.hpp" />
+    <ClInclude Include="include\Game\Gameplay\bullet_hole.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Enemy\enemy_life.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Enemy\enemy_movement.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Enemy\enemy_state.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Entity\entity_life.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Entity\entity_movement.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Entity\entity_state.hpp" />
+    <ClInclude Include="include\Game\Gameplay\life_bar.hpp" />
+    <ClInclude Include="include\Game\Gameplay\medkit.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Player\camera_movement.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Player\player_life.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Player\player_movement.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Player\player_shooting.hpp" />
+    <ClInclude Include="include\Game\Gameplay\Player\player_state.hpp" />
+    <ClInclude Include="include\Game\game_master.hpp" />
+    <ClInclude Include="include\Game\lose_screen.hpp" />
+    <ClInclude Include="include\Game\main_menu.hpp" />
+    <ClInclude Include="include\Game\pause_screen.hpp" />
+    <ClInclude Include="include\Game\win_screen.hpp" />
+    <ClInclude Include="include\Resources\character.hpp" />
+    <ClInclude Include="include\Resources\cube_map.hpp" />
+    <ClInclude Include="include\Resources\material.hpp" />
+    <ClInclude Include="include\Resources\mesh.hpp" />
+    <ClInclude Include="include\Resources\resource.hpp" />
+    <ClInclude Include="include\Resources\scene.hpp" />
+    <ClInclude Include="include\Resources\resources_manager.hpp" />
+    <ClInclude Include="include\Resources\shader.hpp" />
+    <ClInclude Include="include\Resources\texture.hpp" />
+    <ClInclude Include="include\spin_lock.hpp" />
+    <ClInclude Include="include\Utils\singleton.hpp" />
+    <ClInclude Include="include\Utils\type_at.hpp" />
+    <ClInclude Include="include\Utils\utils.hpp" />
+    <ClInclude Include="include\Resources\recipe.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Core\maths.inl" />
+    <None Include="resources\shaders\advancedLighting.frag" />
+    <None Include="resources\shaders\advancedLighting.vert" />
+    <None Include="resources\shaders\depthCubeShader.frag" />
+    <None Include="resources\shaders\depthCubeShader.geom" />
+    <None Include="resources\shaders\depthCubeShader.vert" />
+    <None Include="resources\shaders\depthShader.frag" />
+    <None Include="resources\shaders\depthShader.vert" />
+    <None Include="resources\shaders\fragmentCollider.frag" />
+    <None Include="resources\shaders\fragmentShader.frag" />
+    <None Include="resources\shaders\skyBox.frag" />
+    <None Include="resources\shaders\skyBox.vert" />
+    <None Include="resources\shaders\spriteFragment.frag" />
+    <None Include="resources\shaders\spriteVertex.vert" />
+    <None Include="resources\shaders\testShader.frag" />
+    <None Include="resources\shaders\testShader.vert" />
+    <None Include="resources\shaders\textShader.frag" />
+    <None Include="resources\shaders\textShader.vert" />
+    <None Include="resources\shaders\vertexCollider.vert" />
+    <None Include="resources\shaders\vertexShader.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

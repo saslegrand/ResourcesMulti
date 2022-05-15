@@ -1,0 +1,2 @@
+COMP TRANSFORM 0 0 0 0 0 0 0.6 0.6 0.6 AmmoCounter
+COMP SPRITERENDERER spriteShader resources/UI/ammo.png 1 0

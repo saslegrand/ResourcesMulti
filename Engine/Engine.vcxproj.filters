@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\external">
+      <UniqueIdentifier>{77bc15d8-8f2f-4f05-b205-9838d9f700ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{601b7a72-6829-45e0-8d60-a2a2c075d36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utils">
+      <UniqueIdentifier>{35af11c0-aeba-4114-8351-d695787f9131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{d5d6fd48-1ce9-400a-b57a-b500733b3c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ThirdParty">
+      <UniqueIdentifier>{f1d9b43e-2b63-40ee-a4d4-dab79bb85508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ThirdParty\ImGui">
+      <UniqueIdentifier>{75e59472-fba3-43e8-92de-d274cd501d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Resources">
+      <UniqueIdentifier>{7a3d26f9-81e2-41ee-922d-aed3d87d0ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Resources">
+      <UniqueIdentifier>{d1e28711-82c3-4bda-bffc-96c0d718e1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils">
+      <UniqueIdentifier>{3f64a28b-ee77-4b89-8972-4dca80460d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine">
+      <UniqueIdentifier>{b260d1d9-4235-4f95-aa3c-bac3c2fc2eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine">
+      <UniqueIdentifier>{e03ed8e4-0b2f-461c-81ce-6717c207681d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Physics">
+      <UniqueIdentifier>{b239ab45-44f9-4480-aba5-8ebfd0606ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Physics">
+      <UniqueIdentifier>{1fd4e3f9-dd20-41a5-a9e8-a36aa0102e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Input">
+      <UniqueIdentifier>{5619c947-b597-4c83-99b9-82c85c0c321e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Input">
+      <UniqueIdentifier>{97898d89-cd9f-44c9-9320-de52f541853f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Shaders">
+      <UniqueIdentifier>{47a8c70e-8faa-41eb-80b9-8e8e879d4285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Physics\Toolbox">
+      <UniqueIdentifier>{a1d64b90-3a51-4a11-ad9f-a28ce37a9948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Physics\Toolbox">
+      <UniqueIdentifier>{09099195-7adc-4d83-8481-d11016594a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\UI">
+      <UniqueIdentifier>{4bde2f73-78d0-49b0-b476-2d72545c266a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\UI">
+      <UniqueIdentifier>{8996f4a7-4dcc-4c04-86b9-7586adb084c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{8ead12f8-7214-443b-998c-8195ab1cebba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Gameplay">
+      <UniqueIdentifier>{be3bdb28-1ca7-41ee-adce-aaf3b4c44ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Gameplay\Player">
+      <UniqueIdentifier>{aa32bb03-6492-427c-a79b-0ca4788bb486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{51be28bb-4782-4cdb-9df9-e88e02a53152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Gameplay">
+      <UniqueIdentifier>{e6d461f0-2a83-4f65-a8e4-f4dd7a4644d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Gameplay\Player">
+      <UniqueIdentifier>{3a8653ae-70f8-4c13-b735-6cad18e1c3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Gameplay\Enemies">
+      <UniqueIdentifier>{6c32ad78-bfda-40c8-903e-24544531d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\LowRenderer">
+      <UniqueIdentifier>{c8b3f9c5-d759-4dd6-8f6e-d909fbfd1555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\LowRenderer">
+      <UniqueIdentifier>{b3322f59-d3ae-46d3-b7d4-f637955fc1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Gameplay\Enemy">
+      <UniqueIdentifier>{b71c4fd2-0925-4521-afd2-f9ede5b12b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Gameplay\Entity">
+      <UniqueIdentifier>{c7e52b44-0449-4d27-b080-661b7ebf6fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Gameplay\Entity">
+      <UniqueIdentifier>{5a779689-c7cd-4fe8-9b58-84fc944c899d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\headers">
+      <UniqueIdentifier>{603d1708-3b24-4c00-87b5-e36db20ea276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Shaders\Shadow">
+      <UniqueIdentifier>{4455bf65-4fb7-4400-b6b9-5a6ee3a0aeff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui.cpp">
+      <Filter>Fichiers sources\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_demo.cpp">
+      <Filter>Fichiers sources\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_draw.cpp">
+      <Filter>Fichiers sources\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_widgets.cpp">
+      <Filter>Fichiers sources\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\resources_manager.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\debug.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\shader.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\utils.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\engine_master.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\physic_manager.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\time.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\object.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\game_object.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\component.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\graph.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\scene.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\application.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\mesh.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\resource.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\transform.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\material.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\texture.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\rigidbody.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\collider.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\box_collider.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\sphere_collider.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\cube_map.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\stb_image.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\Toolbox\intersection.cpp">
+      <Filter>Fichiers sources\Engine\Physics\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\UI\button.cpp">
+      <Filter>Fichiers sources\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\recipe.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Input\inputs_manager.cpp">
+      <Filter>Fichiers sources\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Input\key_axis.cpp">
+      <Filter>Fichiers sources\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Input\key_button.cpp">
+      <Filter>Fichiers sources\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Input\mouse_button.cpp">
+      <Filter>Fichiers sources\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\shape.cpp">
+      <Filter>Fichiers sources\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\camera.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\collider_renderer.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\light.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\model.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\model_renderer.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\render_manager.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\renderer.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\sky_box.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\sprite_renderer.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\color.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\game_master.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\main_menu.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Player\camera_movement.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Player\player_movement.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Player\player_state.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Enemy\enemy_movement.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Enemy\enemy_state.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Entity\entity_movement.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Entity\entity_state.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Entity\entity_life.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Enemy\enemy_life.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Player\player_life.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\Toolbox\referential.cpp">
+      <Filter>Fichiers sources\Engine\Physics\Toolbox</Filter>
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\Player\player_shooting.cpp">
+      <Filter>Fichiers sources\Game\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\character.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\shadow.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\shadow_map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\shadow_point.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\pause_screen.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\timer.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\bullet_hole.cpp">
+      <Filter>Fichiers sources\Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\sound_manager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\life_bar.cpp">
+      <Filter>Fichiers sources\Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gameplay\medkit.cpp">
+      <Filter>Fichiers sources\Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\win_screen.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\lose_screen.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\thread_pool.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\LowRenderer\sub_model.cpp">
+      <Filter>Fichiers sources\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\benchmark.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\stb_image.h">
+      <Filter>Fichiers d%27en-tête\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\application.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utils\singleton.hpp">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\resources_manager.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\debug.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\shader.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utils\utils.hpp">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\engine_master.hpp">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\physic_manager.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\time.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\object.hpp">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\game_object.hpp">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\component.hpp">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\graph.hpp">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\scene.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\maths.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utils\type_at.hpp">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\mesh.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\material.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\texture.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\resource.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\transform.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\rigidbody.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\collider.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\box_collider.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\sphere_collider.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\cube_map.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\box.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\capsule.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\cylinder.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\disk.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\intersection.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\plane.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\quad.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\sphere.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\shape.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\collision.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\UI\button.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\rect2D.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\recipe.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Input\input.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Input\inputs_manager.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Input\key_axis.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Input\key_button.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Input\mouse_button.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\camera.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\collider_renderer.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\light.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\model.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\model_renderer.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\render_manager.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\renderer.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\sky_box.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\sprite_renderer.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\color.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\game_master.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\main_menu.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Player\camera_movement.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Player\player_movement.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Player\player_state.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Enemy\enemy_movement.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Enemy\enemy_state.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Entity\entity_movement.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Entity\entity_state.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Entity\entity_life.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Enemy\enemy_life.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Player\player_life.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Physics\Toolbox\referential.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physics\Toolbox</Filter>
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\Player\player_shooting.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\character.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ESoundEngineOptions.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ESoundOutputDrivers.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_EStreamModes.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IAudioRecorder.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IAudioStream.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IAudioStreamLoader.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IFileFactory.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IFileReader.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IRefCounted.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_irrKlangTypes.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISound.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISoundDeviceList.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISoundEffectControl.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISoundEngine.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISoundMixedOutputReceiver.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISoundSource.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_ISoundStopEventReceiver.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_IVirtualRefCounted.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_SAudioStreamFormat.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\ik_vec3d.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\irrklang\irrKlang.h">
+      <Filter>Fichiers d%27en-tête\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\shadow.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\shadow_map.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\shadow_point.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\timer.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\bullet_hole.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\sound_manager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\life_bar.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gameplay\medkit.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\pause_screen.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\lose_screen.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\win_screen.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spin_lock.hpp">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\thread_pool.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\LowRenderer\sub_model.hpp">
+      <Filter>Fichiers d%27en-tête\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\benchmark.hpp">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\define.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Core\maths.inl">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </None>
+    <None Include="resources\shaders\fragmentCollider.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\spriteFragment.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\spriteVertex.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\vertexCollider.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\advancedLighting.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\advancedLighting.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\fragmentShader.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\skyBox.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\skyBox.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\testShader.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\testShader.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\vertexShader.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\textShader.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\textShader.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\depthCubeShader.frag">
+      <Filter>Fichiers de ressources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="resources\shaders\depthCubeShader.geom">
+      <Filter>Fichiers de ressources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="resources\shaders\depthCubeShader.vert">
+      <Filter>Fichiers de ressources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="resources\shaders\depthShader.frag">
+      <Filter>Fichiers de ressources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="resources\shaders\depthShader.vert">
+      <Filter>Fichiers de ressources\Shaders\Shadow</Filter>
+    </None>
+  </ItemGroup>
+</Project>
